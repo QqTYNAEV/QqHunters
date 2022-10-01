@@ -1,0 +1,17 @@
+name: QqHunters
+version: 0.9 (BETA 2)
+api: 3.0.0
+main: QqHunters\Main
+author: Qq_BCEM
+
+commands:
+  hunter:
+    permission: qhunt.use
+    description: "Начать охоту >:)"
+  stop-hunt:
+    description: "Остановить охоту"
+    permission: qhunt.use
+  hunter-info:
+    permission: qhunt.info
+    default: true
+    description: "Информация о разыскиваемом"
